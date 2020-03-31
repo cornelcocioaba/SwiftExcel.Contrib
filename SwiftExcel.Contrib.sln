@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwiftExcel.Contrib", "SwiftExcel.Contrib\SwiftExcel.Contrib.csproj", "{311F33C8-B73E-4ABB-B334-535D59478495}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwiftExcel.Contrib.Sandbox", "SwiftExcel.Contrib.Sandbox\SwiftExcel.Contrib.Sandbox.csproj", "{59F19CDD-6629-4440-A473-B19347A2529D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{311F33C8-B73E-4ABB-B334-535D59478495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311F33C8-B73E-4ABB-B334-535D59478495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311F33C8-B73E-4ABB-B334-535D59478495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311F33C8-B73E-4ABB-B334-535D59478495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F19CDD-6629-4440-A473-B19347A2529D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F19CDD-6629-4440-A473-B19347A2529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F19CDD-6629-4440-A473-B19347A2529D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F19CDD-6629-4440-A473-B19347A2529D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75CE12EE-80DA-4799-BC3A-D21663A3501D}
+	EndGlobalSection
+EndGlobal
