@@ -1,7 +1,15 @@
 # SwiftExcel.Contrib
 [SwiftExcel](https://github.com/RomanPavelko/SwiftExcel) extensions
 
-
+# Installation
+SwiftExcel.Contrib is available as a NuGet package. You can install it using the NuGet Package Console window:
+```Package Manager
+PM> Install-Package SwiftExcel.Contrib
+```
+or
+``` .NET CLI
+dotnet add package SwiftExcel.Contrib
+```
 ## Features
 
 ### Write`IEnumerable<T>`
@@ -16,7 +24,7 @@ excelWriter.Write(object, col, row);
 ### Include in report
 To include a property in the report add the `[IncludeInReport]` attribute. If you want to include properties from nested objects, use the `[NestedIncludeInReport]` attribute
 #### Order
-The order in the report can be defined by setting the `Orde`r option in the `[IncludeInReport]` attribute i.e. `[IncludeInReport(Order = 1)]`
+The order in the report can be defined by setting the `Order` option in the `[IncludeInReport]` attribute i.e. `[IncludeInReport(Order = 1)]`
 ### Column Names
 Use `[Display(Name = "")]` or  `[DisplayName(“”)]` to name a column. The property name will be used otherwise.
 
@@ -84,4 +92,4 @@ using (var ew = new ExcelWriter("C:/temp/test.xlsx"))
 }
 ```
 
-Thanks to [fingers10/ExcelExport]([https://github.com/fingers10/ExcelExport](https://github.com/fingers10/ExcelExport)) for the majority of the features.
+Special thanks to [fingers10/ExcelExport](https://github.com/fingers10/ExcelExport) for most of the features.
